@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "amatics";
+    src: url("../font/amaticsc.woff2");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "amatics";
+
+}
+
+#imgHeader {
+    background: url("../img/pizza.jpg");
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.hours {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 .6rem .6rem;
+    background-color: black;
+    padding: 1px;
+}
+
+
+
+#head {
+
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 40px;
+    color: white;
+    top: 0;
+    z-index: 2;
+
+}
+
+.letme {
+    border: none;
+    background-color: black;
+
+    text-align: center;
+    color: white;
+    font-family: "amatics";
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+
+
+
+#menu {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+h2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+#carte {
+    width: 70%;
+    margin: 0 auto 5rem auto;
+
+
+
+}
+
+#carte nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    background-color: white;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 10px;
+    letter-spacing: .1rem;
+    padding-bottom: 10px;
+}
+
+.price {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 0 2px 0 2px;
+    margin-right: 5px;
+}
+
+.hot {
+    background-color: red;
+    color: white;
+}
+
+.new {
+    background-color: grey;
+}
+
+.pizza,
+.salads,
+.starter {
+
+    background-color: black;
+    color: white;
+    font-family: "amatics";
+    font-size: 30px;
+    display: inline;
+    padding-left: 10.32rem;
+    padding-right: 10.32rem;
+    border: none;
+
+
+}
+
+.pizza:hover {
+    background-color: red;
+}
+
+.salads:hover {
+    background-color: red;
+}
+
+.starter:hover {
+    background-color: red;
+}
+
+#about {
+    background-color: rgb(90, 50, 50);
+    color: white;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 10px;
+    letter-spacing: .1rem;
+    padding-bottom: 10px;
+
+
+}
+
+.blabla {
+    width: 70%;
+    margin: auto;
+    line-height: 2;
+}
+
+#chief {
+    width: 120px;
+    height: 90px;
+
+    border-radius: 80%;
+    float: right;
+
+}
+
+#openresto {
+    width: 70%;
+    padding-top: 35px;
+    padding-left: 14.5%;
+
+
+}
+
+table {
+    width: 70%;
+    border: none;
+    padding-top: 35px;
+    padding-left: 14.5%;
+    line-height: 2;
+
+}
+
+#contact {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    width: 70%;
+    padding-top: 35px;
+    padding-left: 14.5%;
+}
+.reserve{
+    font-weight: 500;
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+input, textarea{
+padding: 1.5rem;
+width: 100%;
+font-family: "amatics";
+font-size: 2rem;
+
+}
+form button{
+    border: none;
+    width: 100%;
+font-family: "amatics";
+font-size: 2rem;
+}
+ul {
+    margin: 10px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.font {
+    font-size: 75px;
+}
