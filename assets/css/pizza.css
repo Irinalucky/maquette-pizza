@@ -24,13 +24,19 @@ body {
     position: relative;
 }
 
+.font {
+    font-size: 120px;
+}
+
 .hours {
     position: absolute;
     left: 0;
     bottom: 0;
     margin: 0 0 .6rem .6rem;
     background-color: black;
-    padding: 1px;
+    padding: .5rem;
+    font-size: 30px;
+
 }
 
 
@@ -44,10 +50,11 @@ body {
     box-sizing: border-box;
     justify-content: space-between;
     align-content: flex-start;
-    height: 40px;
+    height: 50px;
     color: white;
     top: 0;
     z-index: 2;
+    font-size: 30px;
 
 }
 
@@ -58,8 +65,8 @@ body {
     text-align: center;
     color: white;
     font-family: "amatics";
-    font-size: 30px;
-    padding: 5px;
+    font-size: 40px;
+    padding: .5rem;
 
 }
 
@@ -72,6 +79,7 @@ body {
     text-align: center;
     height: 100%;
     padding-bottom: 30px;
+    padding-top: 2rem;
 }
 
 h2 {
@@ -79,8 +87,11 @@ h2 {
     color: white;
     text-align: center;
     margin-top: 20px;
+    font-size: 70px;
+
+}
+h3{
     font-size: 30px;
-    
 }
 
 #carte {
@@ -94,6 +105,7 @@ h2 {
 #carte nav {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 #content {
@@ -116,10 +128,13 @@ h2 {
 .hot {
     background-color: red;
     color: white;
+    padding: 4px 4px 4px 6px;
+    
 }
 
 .new {
     background-color: grey;
+    padding: 4px 4px 4px 6px;
 }
 
 .pizza,
@@ -134,8 +149,7 @@ h2 {
     padding-left: 10.32rem;
     padding-right: 10.32rem;
     border: none;
-
-
+    width: 100%;
 }
 
 .pizza:hover {
@@ -169,10 +183,11 @@ h2 {
 }
 
 #chief {
-    width: 120px;
-    height: 90px;
+    width: 180px;
+    margin-top: 20px;
 
     border-radius: 80%;
+    -webkit-border-radius:80%;
     float: right;
 
 }
@@ -191,12 +206,13 @@ table {
     padding-top: 35px;
     padding-left: 14.5%;
     line-height: 2;
+    font-size: 30px;
 
 }
 
 #contact {
     width: 100%;
-    background-color: grey;
+    background-color: rgb(73, 78, 78);
     color: white;
     display: flex;
     flex-direction: column;
@@ -212,28 +228,39 @@ table {
     padding-top: 35px;
     padding-left: 14.5%;
 }
-.reserve{
+
+.reserve {
     font-weight: 500;
     font-size: 2rem;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
 
 }
-input, textarea{
-padding: 1.5rem;
-width: 100%;
-font-family: "amatics";
-font-size: 2rem;
+
+input,
+textarea {
+    padding: 1.5rem;
+    width: 100%;
+    font-family: "amatics";
+    font-size: 2rem;
+    border: none;
+    box-sizing: border-box;
 
 }
-form button{
+
+.btn {
     border: none;
     width: 100%;
-font-family: "amatics";
-font-size: 2rem;
+    font-family: "amatics";
+    font-size: 2rem;
+    padding: 1rem 0;
+    background-color: rgb(182, 182, 182);
+
 }
+
 ul {
     margin: 10px;
 }
@@ -247,7 +274,20 @@ a {
     text-decoration: none;
     color: white;
 }
-
-.font {
-    font-size: 75px;
+p{
+    font-size: 30px;
+}
+.fyi{
+    background-color: black;
+}
+footer{
+    padding-top: 1rem;
+    height: 75px;
+    text-align: center;
+    background-color: black;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
 }
